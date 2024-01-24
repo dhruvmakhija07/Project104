@@ -40,4 +40,6 @@ cv2.putText(
 
 cv2.imshow('output',img)
 
+cv2.imwrite('solar-system.jpg',img)
+
 cv2.waitKey(0)
